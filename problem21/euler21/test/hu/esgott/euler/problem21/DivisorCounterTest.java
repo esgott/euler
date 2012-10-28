@@ -51,7 +51,7 @@ public class DivisorCounterTest {
 	
 	@Test
 	public void storeHasElements() {
-		DivisorCounter divisorCounter = new DivisorCounter(mockDivisorFactory);
+		DivisorCounter divisorCounter = new DivisorCounter(new DivisorsFactory());
 		
 		try {
 			divisorCounter.calculate();
