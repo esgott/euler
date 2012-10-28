@@ -7,8 +7,15 @@ import org.junit.Test;
 public class DivisorsTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void sumFor220() {
+		int answer = Divisors.getSumOfDivisors(220);
+		assertEquals(284, answer);
+	}
+	
+	@Test
+	public void sumFor284() {
+		int answer = Divisors.getSumOfDivisors(284);
+		assertEquals(220, answer);
 	}
 
 }
